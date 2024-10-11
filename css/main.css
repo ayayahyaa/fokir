@@ -24,6 +24,7 @@ body {
 .header .navbar .logo {
   float: left;
 }
+
 .header .navbar .menu-link {
   float: right;
 }
@@ -504,7 +505,9 @@ button {
 }
 iframe{
   min-height: 40%;
-  
+}
+.pic{
+  min-height: 250px;
 }
 
 .section-seven .item .content {
@@ -582,7 +585,6 @@ iframe{
 .section-eight form {
   width: 55%;
   margin: 0 auto;
-  min-height: 50vh;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -601,9 +603,8 @@ form .f-1 {
 }
 form .f-1 input {
   width: 50%;
-  min-height: 45px;
-  border-radius: 8px;
-  padding: 2px 8px;
+    border-radius: 8px;
+  padding: 10px 8px;
   font-size: 16px;
   font-weight: 600;
 }
